@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         mapView.setBuiltInZoomControls(false);  // Disable built-in zoom controls
         mapView.setMultiTouchControls(true);
 
+
         // Set the starting point and zoom level
         GeoPoint startPoint = new GeoPoint(48.8583, 2.2944);  // Example: Eiffel Tower
         mapView.getController().setZoom(15.0);
